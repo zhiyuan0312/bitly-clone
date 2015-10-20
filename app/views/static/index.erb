@@ -1,2 +1,19 @@
-<h1>Hello World</h1>
-<p>See Me in views/static/index.html.erb</p>
+<!-- <h1>Hello World</h1>
+<p>See Me in views/static/index.html.erb</p> -->
+<form action="/urls" method = post>
+	Enter URL:
+	<input type = "text" name="long_url">
+	<input type ="submit" value"Submit">
+</form>
+
+<table>
+	
+<% @list.each do |url| %>
+<tr>
+	<td><%= url.url %></td>
+	<td><a href="<%=url.url%>"><%= url.shorterned_url%></a></td>
+	<br>
+</tr>
+<% end %>
+
+</table>
