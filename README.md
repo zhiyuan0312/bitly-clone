@@ -268,3 +268,4 @@ $ rake db:version
 14. https://devcenter.heroku.com/articles/getting-started-with-rails3
 15. http://www.getlaura.com/how-to-enable-sessions-with-sinatra/
 16. http://stackoverflow.com/questions/5693528/how-to-use-sinatra-session
+# bitty-clone
