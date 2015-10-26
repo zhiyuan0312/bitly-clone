@@ -3,14 +3,34 @@ body {
 	background-image: url("/../img/concrete_seamless.png");
 }
 
-#id {
-	color: blue;
-	text-align: center;
+.input1 {
+	width: 300px;
+	height: 30px;
 
 }
 
-.button {
-	color :blue;
+
+.button1 {
+	width: 50px;
+
+}
+
+.form1 {
+	display: inline;
+	width: 300px;
+    margin: auto;
+    padding-top: 10px;
+    float:middle;
+
+/*    overflow: hidden;*/
+}
+
+#form_text {
+
+	color: green;
+	font-size: 30px;
+	font-family:"Blokk", Arial, sans-serif;
+	float: middle;
 }
 
 /*td,th {
@@ -30,11 +50,11 @@ body {
 
   .component {
 	line-height: 1.5em;
-	margin: 0 auto;
-	padding: 2em 0 3em;
+	margin: auto;
 	width: 90%;
 	max-width: 1000px;
 	overflow: hidden;
+	float: left;
 }
 
 .component .filler {
@@ -70,11 +90,6 @@ tbody tr:hover {
     background-color: rgba(129,208,177,.3);
 }
 
-form {
-	width: 300px;
-	margin: 0 auto;
-}
-
 /* For appearance */
 .sticky-wrap {
 	overflow-x: auto;
@@ -92,7 +107,7 @@ form {
 	left: 0;
 	transition: all .125s ease-in-out;
 	z-index: 50;
-	width: auto; /* Prevent table from stretching to full size */
+	width: auto;  Prevent table from stretching to full size 
 }
 	.sticky-wrap .sticky-thead {
 		box-shadow: 0 0.25em 0.1em -0.1em rgba(0,0,0,.125);
@@ -112,4 +127,3 @@ form {
 .sticky-wrap th {
 	box-sizing: border-box;
 }
-

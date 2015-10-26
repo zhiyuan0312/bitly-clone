@@ -1,17 +1,15 @@
 <!-- <h1>Hello World</h1>
 <p>See Me in views/static/index.html.erb</p> -->
-<form action="/urls" method = post>
-	<span id = "id"> Enter URL: </span>
-	<input type = "text" name="long_url">
-	<input type ="submit" value"Submit" class = "button">
+<form action="/urls" method = post class="form1">
+	<span id="form_text">Enter URL:</span>
+	<input type = "text" name="long_url" class="input1">
+	<input type ="submit" value"Submit" class= "button1">
 </form>
-
-
 	<table class="component">
 		<thead>
 			<tr class="filler">
 				<th>Long URL</th>
-				<th>Short URL</th>
+				<th>Short URL</th>	
 				<th>Clicks counter</th>
 			</tr>
 		</thead>
@@ -22,8 +20,8 @@
 		<td>
 	<a href="http://localhost:9393/<%= url.shorterned_url%>" ><%= url.shorterned_url%></a></td>
 		<td><%= url.click_count %></td>
-		<br>
+<!-- 		<br> -->
 	</tr>
 	<% end %>
 	</table>
-
+	<button class="test_button">playing around</button>
